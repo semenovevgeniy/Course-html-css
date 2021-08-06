@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>MAKET_TABLE</title>
 </head>
 <body>
@@ -11,18 +12,15 @@
                         cellspacing="0"
                         width="100%";>
           <tr>
-              <th colspan="2"
-                   style="text-align: center;
-                          background-color: cornflowerblue;">
-              <h1 style="color: blue;
-                         font-size: 35px">
+              <th colspan="2" class="first">
+              <h1>
                  ПРИВЕТ УЧАСТНИКАМ СОРЕВНОВАНИЙ!
              </h1>
              </th>
           </tr>
           <tr>
-              <td width="20%" style="background-color: yellow;">
-                <h2 style="margin-left: 15px;">Виды спорта:</h2>
+              <td width="20%" class="left">
+                <h2>Виды спорта:</h2>
                   <ul>
                        <li>
                            <a href="https://rushandball.ru/"
@@ -123,20 +121,11 @@
                         </li>
                   </ul>
               </td>
-              <td width="80%" background="ball1.png"
-                              style="background-position: top right;
-                                     background-size: 100px;
-                                     background-repeat: repeat-y;">
-                           <h3 style="font-size: 24px;
-                                      text-align: center;
-                                      padding-bottom: 0px;
-                                      margin-bottom: 20px;">
-                                  ФУТБОЛ
-                          </h3>
-                  <img src="football-1.png" width="250px"
-                       style="margin-left: 50px;
-                              margin-right: 15px;
-                              float: left;">
+              <td width="80%" class="rigth" background="ball1.png">
+                           <h3>ФУТБОЛ</h3>
+                  <img class="football"
+                       src="football-1.png"
+                       width="250px">
                     <p>
                         Футбол-командный вид спорта,
                         в котором целью является забить мяч
@@ -169,15 +158,10 @@
               </td>
           </tr>
           <tr>
-              <td colspan="2" style="text-align: center;
-                                     padding: 20px;
-                                     background-color: cornflowerblue;
-                                     margin-top: 50px;">
-                           <span style="font-size: 35px;
-                                      text-align:center;
-                                      color: blue">
-                                     ГЛАВНОЕ НЕ ПОБЕДА, А УЧАСТИЕ!
-                           </span>
+              <td class="second" colspan="2">
+                 <span class="last">
+                    ГЛАВНОЕ НЕ ПОБЕДА, А УЧАСТИЕ!
+                </span>
               </td>
           </tr>
       </table>
