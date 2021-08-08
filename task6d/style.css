@@ -1,4 +1,15 @@
-.star {
-    display: flex;
-    width: 100%;
+.list {
+    list-style: none;
+}
+.list li {
+    display: inline-block;
+}
+.list li a {
+    display: block;
+    background: url('star.png');
+    width: 150px;
+    height: 150px;
+}
+.list:hover li:nth-of-type(-n+3) a {
+    background: url('star2.png');
 }
