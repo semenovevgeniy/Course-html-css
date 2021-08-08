@@ -1,6 +1,46 @@
-.first a {
-    background: url("star.jpg");
-    display: inline-block;
+a.first {
+    background: url('star.png');
+    display:inline-block ;
     width: 150px;
     height: 150px;
+}
+a.first:hover {
+    background: url('star2.png');
+
+}
+a.second {
+    background: url('star.png');
+    display:inline-block ;
+    width: 150px;
+    height: 150px;
+}
+a.second:hover {
+    background: url('star2.png');
+}
+a.third {
+    background: url('star.png');
+    display:inline-block ;
+    width: 150px;
+    height: 150px;
+}
+a.third:hover {
+    background: url('star2.png');
+}
+a.forth {
+    background: url('star.png');
+    display:inline-block ;
+    width: 150px;
+    height: 150px;
+}
+a.forth:hover {
+    background: url('star2.png');
+}
+a.fifth {
+    background: url('star.png');
+    display:inline-block ;
+    width: 150px;
+    height: 150px;
+}
+a.fifth:hover {
+    background: url('star2.png');
 }
