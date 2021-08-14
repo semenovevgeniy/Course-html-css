@@ -1,0 +1,31 @@
+.name {
+    color: black;
+    font-size: 38px;
+    font-weight: 600;
+}
+div div:nth-child(2) {
+    color: rgb(61, 170, 79);
+}
+div div:nth-child(3) {
+    color: rgb(228, 70,70);
+    font-weight: 600;
+}
+div div:nth-child(4)::before {
+    content:url('extref.png');
+}
+div div:nth-child(4) {
+    color: rgb(20, 20, 247);
+    font-size: 18px;
+}
+div div:nth-child(5) {
+    color: rgb(20, 20, 247);
+    font-style: italic;
+    font-size: 18px;
+}
+footer {
+    margin-top: 40px;
+    color: rgb(14, 14, 99);
+    font-weight: 600;
+    font-size: 18px;
+}
+
