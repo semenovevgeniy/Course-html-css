@@ -1,4 +1,11 @@
-.star {
-    display: flex;
-    width: 100%;
+
+svg {
+    fill:red;
+    width: 100px;
+    height: 100px;
+}
+svg:hover,
+svg:hover ~ svg
+{
+    fill:green;
 }

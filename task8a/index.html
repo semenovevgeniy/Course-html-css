@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section claass="section">
+      <p>Для публикации вашей статьи заполните,
+         пожалуйста, следующую форму
+      </p>
+    <form action="" method="get">
+       <div>
+           <label for="name article">Название статьи:</label>
+           <input id="name article">
+       </div>
+
+       <div>
+           <label for="rubrika">Рубрика:</label>
+           <select name="" id="rubrika">
+               <option value="программирование">программирование</option>
+               <option value="тестирование">тестирование</option>
+               <option value="менеджмент">менеджмент</option>
+               <option value="контроль">контроль</option>
+           </select>
+       </div>
+
+       <div class="public">
+           <span>Публикация:</span>
+           <div>
+               <input type="radio" name="publication" id="site_1" value="на сайте">
+               <label for="site_1">на сайте</label>
+           </div>
+           <div>
+               <input type="radio" name="publication" id="site_2" value="в журнале">
+               <label for="site_2">в журнале</label>
+          </div>
+           <div>
+               <input type="radio" name="publication" id="site_3" value="на сайте и в журнале">
+               <label for="site_3">на сайте и в журнале</label>
+          </div>
+       </div>
+
+       <div class="comment">
+           <label for="comment">Разрешить комментарии:</label>
+           <input id="comment" type="checkbox" checked>
+       </div>
+
+       <div>
+           <label for="text">Текст статьи:</label>
+           <textarea id="text" style="height: 150px;"></textarea>
+       </div>
+
+       <div class="button">
+           <button>Опубликовать</button>
+       </div>
+   </form>
+</section>
+</body>
+</html>
